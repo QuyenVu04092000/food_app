@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20c4ba2b-75ed-4c77-86e3-565972b6075c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Itim/Itim-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Itim/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Sunshiney/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Sunshiney/Sunshiney-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/categories_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/category_item.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fake_data.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/models/category.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/foods_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/food.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/category_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/category_item.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fake_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fake_data.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/lib/category_item.dart" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="26MZe5eU4woR8xkjFSI9Px2jm3B" />
   <component name="ProjectView">
@@ -40,8 +50,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="com.android.tools.idea.emulator.zoom.toolbar.visible" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -73,7 +85,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/my_app" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
