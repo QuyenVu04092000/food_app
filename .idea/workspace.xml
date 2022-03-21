@@ -10,12 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20c4ba2b-75ed-4c77-86e3-565972b6075c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/foods_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/models/food.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/category_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/category_item.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/fake_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fake_data.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/foods_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/foods_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,5 +101,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

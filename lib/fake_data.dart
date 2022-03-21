@@ -20,7 +20,7 @@ var FAKE_FOODS = [
       categoryId: 1),
   Food(
       name: "Pizza tonda",
-      urlImage: "https://www.angelopo.com/filestore/images/pizza-tonda.jpg",
+      urlImage: "https://pasgo.vn/Upload/anh-chi-tiet/nha-hang-pizza-tonda-crescent-mall-1-normal-1766181948500.jpg",
       duration: Duration(minutes:15),
       complexity: Complexity.Hard,
       ingredients: ['Tomato sauce','Fontina cheese','Pepperoni','Onions','Mushrooms','pepperoncini'],
