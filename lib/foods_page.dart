@@ -3,6 +3,7 @@ import 'package:food_app/fake_data.dart';
 import 'package:food_app/models/category.dart';
 import 'package:food_app/models/food.dart';
 import 'package:transparent_image/transparent_image.dart';
+import 'detail_food_page.dart';
 class FoodsPage extends StatelessWidget{
   final Category category;
   FoodsPage({required this.category});
@@ -15,11 +16,19 @@ class FoodsPage extends StatelessWidget{
       ),
       body: Center(
         child: Center(
-          child: ListView.builder(
-              itemCount: foods.length,
-              itemBuilder: (context, index) {
-                Food food = foods[index];
-                return Stack(
+          child: foods.length > 0 ? ListView.builder(
+            itemCount: foods.length,
+            itemBuilder: (context, index) {
+              Food food = foods[index];
+              return InkWell(
+                onTap: (){
+                  Navigator.of(context).push(
+                      MaterialPageRoute(
+                          builder: (context) => DetailFoodPage(food: food)
+                      )
+                  );
+                },
+                child: Stack(
                   children: <Widget>[
                     Container(
                       padding: EdgeInsets.all(20),
@@ -34,28 +43,35 @@ class FoodsPage extends StatelessWidget{
                       ),
                     ),
                     Positioned(
-                      top: 30,
-                      left: 30,
-                      child: Container(
-                        padding: EdgeInsets.all(5),
-                        decoration: BoxDecoration(
-                          color: Colors.black45,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(color: Colors.white, width: 2)
-                        ),
-                        child: Row(
-                          children: <Widget>[
-                            Icon(Icons.timer, color: Colors.white, size: 25,),
-                            Text('${food.duration.inMinutes} minutes',
-                              style: TextStyle(fontSize: 22,color: Colors.white),
-                            ),
-                          ],
-                        ),
-                      )),
+                        top: 30,
+                        left: 30,
+                        child: Container(
+                          padding: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                              color: Colors.black45,
+                              borderRadius: BorderRadius.circular(10),
+                              border: Border.all(color: Colors.white, width: 2)
+                          ),
+                          child: Row(
+                            children: <Widget>[
+                              Icon(Icons.timer, color: Colors.white, size: 25,),
+                              Text('${food.duration.inMinutes} minutes',
+                                style: TextStyle(fontSize: 22,color: Colors.white),
+                              ),
+                            ],
+                          ),
+                        )),
                   ],
-                );
-              },
-          ),
+                ),
+              );
+            },
+          ):
+              Text('No food found',
+              style: TextStyle(
+                fontSize: 25,
+                fontWeight: FontWeight.bold
+              ),
+              )
         )
       ),
     );
